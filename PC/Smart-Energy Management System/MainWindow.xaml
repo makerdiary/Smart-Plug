@@ -1,0 +1,264 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vc="clr-namespace:Visifire.Charts;assembly=WPFVisifire.Charts"
+        xmlns:ToggleSwitch="clr-namespace:ToggleSwitch;assembly=ToggleSwitch" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Utils="clr-namespace:ToggleSwitch.Utils;assembly=ToggleSwitch" xmlns:Borders="clr-namespace:ToggleSwitch.Borders;assembly=ToggleSwitch" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" mc:Ignorable="d" 
+        x:Class="Smart_Energy_Management_System.MainWindow"
+        Title="MainWindow" MinHeight="650" MinWidth="800" WindowState="Normal" WindowStartupLocation="CenterScreen"
+        Style="{DynamicResource NoResize_window}" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseDoubleClick="Window_MouseDoubleClick" Loaded="Window_Loaded" Height="650" Width="Auto" d:DesignWidth="1127" d:DesignHeight="672">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+            <GradientStop Color="#E8593A28" Offset="0"/>
+            <GradientStop Color="#51AFAA96" Offset="0.8"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="ChartStyle" TargetType="{x:Type vc:Chart}">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Gray" Offset="0"/>
+                        <GradientStop Color="White" Offset=".5"/>
+                        <GradientStop Color="#FFB2ADAD" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="5"/>
+        </Style>
+        <Style x:Key="TitleStyle" TargetType="{x:Type vc:Title}">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontColor" Value="LightGray"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Image x:Name="AppIco" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Stretch="Fill" Source="/images/socket.png" Margin="5,0,0,0"/>
+        <Label x:Name="AppInfo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="30" Content="智能插座管理系统" FontFamily="Microsoft YaHei"
+			FontSize="14" Foreground="White" Margin="50,5,0,0"/>
+        <!--关闭按钮-->
+        <Button x:Name="btnClose" Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="关闭" Style="{DynamicResource xButtonStyle}" 
+			Width="25" Height="20"  FontFamily="Microsoft YaHei" FontSize="12" FontWeight="Bold" Margin="0,5,5,0" Click="Window_Close"/>
+        <!--最小化按钮-->
+        <Button x:Name="btnMinWin" Content="-" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="最小化" Style="{DynamicResource xButtonStyle}"
+			Width="25" Height="20" FontFamily="Microsoft YaHei" FontSize="20" FontWeight="Bold" Margin="0,5,35,0" Click="Window_Min"/>
+        <!--Button Quit-->
+        <Button x:Name="btnQuit" Margin="370,40,280,0" Height="100" Width="80" Style="{DynamicResource xButtonStyle}"/>
+        <!--TabControl-->
+        <TabControl Margin="6,30,-6,30" Background="{x:Null}" Style="{DynamicResource TabControlStyle}">
+
+            <!--TabItem Reports-->
+            <TabItem Header="报表" FontFamily="Microsoft YaHei" FontSize="16" FontWeight="Medium" Margin="10,10,0,0" Height="100" Width="80" Style="{DynamicResource TabItemStyle}" Foreground="White" ToolTip="查看插座数据">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="/images/report.png" Stretch="Uniform"/>
+                </TabItem.Background>
+                <Grid>
+                    <!--显示已连接设备-->
+                    <Label Content="已添加的插座：" HorizontalAlignment="Left" Margin="45,17,0,0" VerticalAlignment="Top" Foreground="#FF271D1D" FontFamily="Microsoft YaHei" FontSize="16"/>
+                    <ListBox x:Name="DeviceList" HorizontalAlignment="Left" Margin="5,45,0,5" Width="200" BorderThickness="2,2,2,2" Background="{x:Null}" BorderBrush="#E8593A28" Style="{DynamicResource ListBoxStyle}" 
+						ItemContainerStyle="{DynamicResource ListBoxItemStyle1}" FontSize="14" FontFamily="Microsoft YaHei" Foreground="#FF585858" SelectionChanged="DeviceList_SelectionChanged"/>
+
+                    <DatePicker x:Name="SelectDatePicker" SelectedDateFormat="Long"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,15,0,0" FontFamily="Microsoft YaHei" Foreground="#FF585858" Width="153" ToolTip="选择日期" SelectedDateChanged="DateSelectionChanged" />
+                    <!--曲线选择-->
+                    <ComboBox x:Name="CurveComboBox" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,15,10,0" Width="180" ToolTip="选择曲线" IsEditable="True" IsReadOnly="True" Text="-- 选择曲线 --" HorizontalContentAlignment="Center" SelectionChanged="CurveComboBox_SelectionChanged">
+                        <ComboBoxItem x:Name="P" Content="有功功率P"/>
+                        <ComboBoxItem x:Name="V" Content="电压V"/>
+                        <ComboBoxItem x:Name="I" Content="电流I"/>
+                        <ComboBoxItem x:Name="Q1" Content="基波无功功率Q1"/>
+                        <ComboBoxItem x:Name="S" Content="视在功率S"/>
+                        <ComboBoxItem x:Name="S1" Content="基波视在功率S1"/>
+                        <ComboBoxItem x:Name="PF" Content="功率因数PF"/>
+                        <ComboBoxItem x:Name="PF1" Content="基波功率因数PF1"/>
+                        <ComboBoxItem x:Name="SN" Content="谐波视在功率SN"/>
+                        <ComboBoxItem x:Name="N" Content="无功功率N"/>
+                        <ComboBoxItem x:Name="THDI" Content="总谐波电流失真THDI"/>
+                                  
+                    </ComboBox>
+
+                    <vc:Chart x:Name="ChartControl" CornerRadius="7" Theme="Theme2" Style="{StaticResource ChartStyle}" Height="350" Margin="220,50,10,0" VerticalAlignment="Top" ScrollingEnabled="False"
+						AnimationEnabled="False"  BorderThickness="1" ShadowEnabled="False" ZoomingEnabled="True" ZoomingMode="MouseWheel" PanningMode="ScrollBarAndMouseDrag">
+                        <vc:Chart.Titles>
+                            <vc:Title Text="选择曲线" Padding="0,10,0,0" FontSize="14"/>
+                        </vc:Chart.Titles>
+
+                        <vc:Chart.Series>
+                            <vc:DataSeries/>
+                        </vc:Chart.Series>
+
+                        <vc:Chart.PlotArea>
+                            <vc:PlotArea LightingEnabled="False" ShadowEnabled="false" BorderThickness="0.24" />
+                        </vc:Chart.PlotArea>
+
+                        <vc:Chart.AxesX>
+                            <vc:Axis  LineThickness="0">
+                                <vc:Axis.AxisLabels>
+                                    <vc:AxisLabels FontSize="11" Angle="-45"/>
+                                </vc:Axis.AxisLabels>
+
+                            </vc:Axis>
+                        </vc:Chart.AxesX>
+
+                        <vc:Chart.AxesY>
+                            <vc:Axis LineThickness="0" >
+                                <vc:Axis.AxisLabels>
+                                    <vc:AxisLabels FontSize="11"/>
+                                </vc:Axis.AxisLabels>
+
+                                <vc:Axis.Ticks>
+                                    <vc:Ticks LineThickness="0"/>
+                                </vc:Axis.Ticks>
+                            </vc:Axis>
+                        </vc:Chart.AxesY>
+                    </vc:Chart>
+
+                    <Label Content="开关:" HorizontalAlignment="Left" Margin="220,0,0,20" VerticalAlignment="Bottom"/>
+                    <ToggleSwitch:HorizontalToggleSwitch HorizontalAlignment="Left" Margin="265,0,0,22" VerticalAlignment="Bottom" ToolTip="继电器开关"/>
+                    <Label Content="已使用:" HorizontalAlignment="Left" Margin="420,0,0,20" VerticalAlignment="Bottom"/>
+                    <TextBox x:Name="ECounterTextBox" HorizontalAlignment="Left" Height="27" Margin="480,0,0,22" TextWrapping="Wrap" Text="" IsReadOnly="True" VerticalAlignment="Bottom" Width="100" ToolTip="消费总电量"/>
+                    <Label Content="[kWh]" HorizontalAlignment="Left" Margin="580,0,0,21" VerticalAlignment="Bottom"/>
+                    <Label Content="￥:" HorizontalAlignment="Left" Margin="700,0,0,20" VerticalAlignment="Bottom"/>
+                    <TextBox x:Name="TotalcostTextBox" HorizontalAlignment="Left" Height="27" Margin="730,0,0,21" TextWrapping="Wrap" Text="" IsReadOnly="True" VerticalAlignment="Bottom" Width="100" ToolTip="使用电费"/>
+                    <ComboBox x:Name="ViewComboBox" HorizontalAlignment="Left" Margin="378,15,0,0" VerticalAlignment="Top" Width="125" IsEditable="True" IsReadOnly="True"  Text="-- 选择视图 --" HorizontalContentAlignment="Center" ToolTip="选择视图" SelectionChanged="DateSelectionChanged" >
+                        <ComboBoxItem x:Name="Night" Content="00:00-06:00"/>
+                        <ComboBoxItem x:Name="Morning" Content="06:00-12:00"/>
+                        <ComboBoxItem x:Name="Afternoon" Content="12:00-18:00"/>
+                        <ComboBoxItem x:Name="Evening" Content="18:00-24:00"/>
+                        <ComboBoxItem x:Name="Day" Content="日视图"/>
+                        <ComboBoxItem x:Name="Week" Content="周视图"/>
+                        <ComboBoxItem x:Name="Month" Content="月视图"/>
+                        <ComboBoxItem x:Name="Year" Content="年视图"/>
+                    </ComboBox>
+
+
+
+
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="计划" FontFamily="Microsoft YaHei" FontSize="16" FontWeight="Medium" Margin="100,10,0,0" Height="100" Width="80" Style="{DynamicResource TabItemStyle}" Foreground="White" ToolTip="设置用电计划">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="/images/schedules.png" Stretch="Uniform"/>
+                </TabItem.Background>
+                <Grid>
+                    <Label Content="已添加的插座：" HorizontalAlignment="Left" Margin="45,17,0,0" VerticalAlignment="Top"/>
+                    <ListBox x:Name="DeviceScheList" HorizontalAlignment="Left" Margin="5,45,0,5" Width="200" BorderThickness="2,2,2,2" Background="{x:Null}" BorderBrush="#E8593A28" Style="{DynamicResource ListBoxStyle}" 
+						ItemContainerStyle="{DynamicResource ListBoxItemStyle1}" FontSize="14" FontFamily="Microsoft YaHei" Foreground="#FF585858" SelectionChanged="DeviceScheList_SelectionChanged"/>
+
+                    <Button x:Name="btnUpdateSche" Content="更新" FontSize="25" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="845,155,0,0" Width="150" Height="80" Style="{DynamicResource GlassButton}" Click="btnUpdateSche_Click"  ToolTip="更新计划"/>
+                    <Label Content="时间段" HorizontalAlignment="Left" Margin="250,15,0,0" VerticalAlignment="Top"/>
+                    <Label Content="预算使用(kWh)" HorizontalAlignment="Left" Margin="380,15,0,0" VerticalAlignment="Top"/>
+                    <Label Content="平均每天使用(kWh)" HorizontalAlignment="Left" Margin="565,15,0,0" VerticalAlignment="Top"/>
+                    <Label Content="节能模式" HorizontalAlignment="Left" Margin="750,15,0,0" VerticalAlignment="Top"/>
+                    <Label Content="00:00-06:00" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top"/>
+                    <Label Content="06:00-12:00" HorizontalAlignment="Left" Margin="230,110,0,0" VerticalAlignment="Top"/>
+                    <Label Content="12:00-18:00" HorizontalAlignment="Left" Margin="230,160,0,0" VerticalAlignment="Top"/>
+                    <Label Content="18:00-24:00" HorizontalAlignment="Left" Margin="230,210,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="NightBudgetTextBox" HorizontalAlignment="Left" Height="27" Margin="380,60,0,0" TextWrapping="Wrap" Text="" MaxLength="10" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="MorningBudgetTextBox" HorizontalAlignment="Left" Height="27" Margin="380,110,0,0" TextWrapping="Wrap" Text="" MaxLength="10" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="AfternoonBudgetTextBox" HorizontalAlignment="Left" Height="27" Margin="380,160,0,0" TextWrapping="Wrap" Text="" MaxLength="10" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="EveningBudgetTextBox" HorizontalAlignment="Left" Height="27" Margin="380,210,0,0" TextWrapping="Wrap" Text="" MaxLength="10" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="NightUsedTextBox" HorizontalAlignment="Left" Height="25" Margin="580,60,0,0" TextWrapping="Wrap" Text="" MaxLength="10" IsReadOnly="True" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="MorningUsedTextBox" HorizontalAlignment="Left" Height="25" Margin="580,110,0,0" TextWrapping="Wrap" Text="" MaxLength="10" IsReadOnly="True" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="AfternoonUsedTextBox" HorizontalAlignment="Left" Height="25" Margin="580,160,0,0" TextWrapping="Wrap" Text="" MaxLength="10" IsReadOnly="True" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="EveningUsedTextBox" HorizontalAlignment="Left" Height="25" Margin="580,210,0,0" TextWrapping="Wrap" Text="" MaxLength="10" IsReadOnly="True" VerticalAlignment="Top" Width="120"/>
+
+                    <vc:Chart x:Name="BudgetChartControl" CornerRadius="7" Theme="Theme4" Height="230" Margin="220,250,10,5" VerticalAlignment="Top" ScrollingEnabled="False" View3D="True"
+						AnimationEnabled="True"  BorderThickness="1" ShadowEnabled="False" ZoomingEnabled="False">
+                        <vc:Chart.Titles>
+                            <vc:Title Text="预算使用-平均每天使用" Padding="0,10,0,0" FontSize="14"/>
+                        </vc:Chart.Titles>
+                        <vc:Chart.AxesX>
+                            <vc:Axis IntervalType="Number" Interval="1">
+                                <!---->
+								<vc:Axis.AxisLabels>
+									<vc:AxisLabels FontSize="14" Angle="0"/>
+								</vc:Axis.AxisLabels>
+
+							</vc:Axis>
+						</vc:Chart.AxesX>
+                        
+						<vc:Chart.AxesY>
+							<vc:Axis LineThickness="2" >
+								<vc:Axis.AxisLabels>
+									<vc:AxisLabels FontSize="11"/>
+								</vc:Axis.AxisLabels>
+								<vc:Axis.Ticks>
+									<vc:Ticks LineThickness="0"/>
+								</vc:Axis.Ticks>
+							</vc:Axis>
+						</vc:Chart.AxesY>
+					</vc:Chart>
+					<ToggleSwitch:HorizontalToggleSwitch x:Name="NightSavingSwitch" HorizontalAlignment="Left" Margin="750,60,0,0" VerticalAlignment="Top"/>
+					<ToggleSwitch:HorizontalToggleSwitch x:Name="MorningSavingSwitch" HorizontalAlignment="Left" Margin="750,110,0,0" VerticalAlignment="Top"/>
+					<ToggleSwitch:HorizontalToggleSwitch x:Name="AfternoonSavingSwitch" HorizontalAlignment="Left" Margin="750,160,0,0" VerticalAlignment="Top"/>
+					<ToggleSwitch:HorizontalToggleSwitch x:Name="EveningSavingSwitch" HorizontalAlignment="Left" Margin="750,210,0,0" VerticalAlignment="Top"/>
+
+				</Grid>
+
+			</TabItem>
+
+			<!--TabItem Add-->
+                                <TabItem Header="添加/删除" FontFamily="Microsoft YaHei" FontSize="16" FontWeight="Medium" Margin="190,10,0,0" Height="100" Width="80" Style="{DynamicResource TabItemStyle}" Foreground="White" ToolTip="添加/删除插座">
+                                    <TabItem.Background>
+                                        <ImageBrush ImageSource="/images/add.png" Stretch="Uniform"/>
+                                    </TabItem.Background>
+                                    <Grid>
+                                        <!--显示已添加的设备-->
+                                        <ListBox x:Name="AddedDeviceList" HorizontalAlignment="Left" Margin="5,45,0,30" Width="200" BorderThickness="2,2,2,2" Background="{x:Null}" BorderBrush="#E8593A28" Style="{DynamicResource ListBoxStyle}" 
+						ItemContainerStyle="{DynamicResource ListBoxItemStyle1}" FontSize="14" FontFamily="Microsoft YaHei" Foreground="#FF585858" SelectionChanged="AddedDeviceList_SelectionChanged"/>
+                                        <Label x:Name="Add_NameLabel" Content="名称:" HorizontalAlignment="Left" Margin="216,15,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_NameTextBox" HorizontalAlignment="Left" Height="27" Margin="267,15,0,0" Text="" MaxLength="50" VerticalAlignment="Top" Width="355" ToolTip="设备名称"/>
+                                        <Label x:Name="Add_IDLabel" Content="ID:" HorizontalAlignment="Left" Margin="231,53,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_IDTextBox" HorizontalAlignment="Left" Height="27" Margin="267,55,0,0" Text="" MaxLength="10" VerticalAlignment="Top" Width="120" ToolTip="计量芯片ID"/>
+                                        <Label x:Name="Add_MACLabel" Content="MAC:" HorizontalAlignment="Left" Margin="406,53,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_MACTextBox" HorizontalAlignment="Left" Height="27" Margin="462,55,0,0" Text="" MaxLength="16" VerticalAlignment="Top" Width="160" ToolTip="ZigBee设备MAC地址"/>
+                                        <Label x:Name="Add_UserCodeLabel" Content="用户码:" HorizontalAlignment="Left" Margin="636,53,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_UserCodeTextBox1" Height="27" Margin="703,55,0,0" Text="" MaxLength="3" VerticalAlignment="Top" ToolTip="用户码1" HorizontalAlignment="Left" Width="40"/>
+                                        <TextBox x:Name="Add_UserCodeTextBox2" HorizontalAlignment="Left" Height="27" Margin="748,55,-22,0" Text="" MaxLength="3" VerticalAlignment="Top" Width="40" ToolTip="用户码2"/>
+                                        <Label x:Name="Add_VoltageLabel" Content="额定电压:" HorizontalAlignment="Left" Margin="216,116,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_VoltageTextBox" HorizontalAlignment="Left" Height="27" Margin="299,118,0,0" Text="" MaxLength="6" VerticalAlignment="Top" Width="70" ToolTip="设备正常工作电压"/>
+                                        <Label Content="V" HorizontalAlignment="Left" Margin="366,116,0,0" VerticalAlignment="Top"/>
+                                        <Label Content="额定功率:" HorizontalAlignment="Left" Margin="406,116,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_PowerTextBox" HorizontalAlignment="Left" Height="27" Margin="489,118,0,0" Text="" MaxLength="6" VerticalAlignment="Top" Width="80" ToolTip="设备正常工作功率"/>
+                                        <Label Content="W" HorizontalAlignment="Left" Margin="567,116,0,0" VerticalAlignment="Top"/>
+                                        <Label Content="预算耗电量:" HorizontalAlignment="Left" Margin="609,116,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_BudgettedEnergyTextBox" HorizontalAlignment="Left" Height="27" Margin="708,118,0,0" Text="" MaxLength="10" VerticalAlignment="Top" Width="90" ToolTip="每天预算耗电量"/>
+                                        <Label  Content="kWh/天" HorizontalAlignment="Left" Margin="803,116,0,0" VerticalAlignment="Top"/>
+
+                                        <Button x:Name="btnAddDev" Content="添加" FontSize="25" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="160" Height="80" Style="{DynamicResource GlassButton}" Click="btnAddDev_Click" Margin="267,0,0,50" ToolTip="添加设备"/>
+                                        <Button x:Name="btnRemoveDev" Content="删除" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="160" Height="80" Style="{DynamicResource GlassButton}" Click="btnRemoveDev_Click" Margin="498,0,0,50" ToolTip="删除设备"/>
+                                        <Label Content="功能描述:" HorizontalAlignment="Left" Margin="216,161,0,0" VerticalAlignment="Top"/>
+                                        <TextBox x:Name="Add_DescriptionTextBox" HorizontalAlignment="Left"  Margin="230,197,0,150" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Text="" VerticalAlignment="Top" Width="630" Height="Auto" ToolTip="添加功能描述"/>
+                                        <Button x:Name="btnUpdateDev" Content="更新" FontSize="25" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="160" Height="80" Style="{DynamicResource GlassButton}" Click="btnUpdateDev_Click" Margin="721,0,0,50" ToolTip="更新插座信息"/>
+                                        <Label Content="已添加的插座：" HorizontalAlignment="Left" Margin="45,17,0,0" VerticalAlignment="Top"/>
+
+
+                                    </Grid>
+                                </TabItem>
+
+
+                                <!--TabItem Settings-->
+                                <TabItem Header="设置" FontFamily="Microsoft YaHei" FontSize="16" FontWeight="Medium" Margin="280,10,0,0" Height="100" Width="80" Style="{DynamicResource TabItemStyle}" Foreground="White" ToolTip="设置系统参数">
+                                    <TabItem.Background>
+                                        <ImageBrush ImageSource="/images/settings.png" Stretch="Uniform"/>
+                                    </TabItem.Background>
+                                    <Grid/>
+                                </TabItem>
+
+
+                                <!--TabItem Help-->
+                                <TabItem Header="帮助" FontFamily="Microsoft YaHei" FontSize="16" FontWeight="Medium" Margin="370,10,0,0" Height="100" Width="80" Style="{DynamicResource TabItemStyle}" Foreground="White" ToolTip="查看帮助">
+                                    <TabItem.Background>
+                                        <ImageBrush ImageSource="/images/help.png" Stretch="Uniform"/>
+                                    </TabItem.Background>
+                                </TabItem>
+
+
+        </TabControl>
+
+    </Grid>
+
+</Window>

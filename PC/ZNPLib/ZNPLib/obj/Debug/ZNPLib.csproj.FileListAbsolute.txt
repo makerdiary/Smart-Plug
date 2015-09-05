@@ -1,0 +1,4 @@
+E:\Embedded Projects\Smart_Plug\PC\ZNPLib\ZNPLib\bin\Debug\ZNPLib.dll
+E:\Embedded Projects\Smart_Plug\PC\ZNPLib\ZNPLib\bin\Debug\ZNPLib.pdb
+E:\Embedded Projects\Smart_Plug\PC\ZNPLib\ZNPLib\obj\Debug\ZNPLib.dll
+E:\Embedded Projects\Smart_Plug\PC\ZNPLib\ZNPLib\obj\Debug\ZNPLib.pdb

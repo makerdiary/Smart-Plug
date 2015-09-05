@@ -1,0 +1,50 @@
+;*********************************************************
+;                                                        *
+; OrCAD Backannotation File                              *
+; Using  PSTWRITER 16.5.0 p001                            *
+; Oct-25-2012 at 19:07:29                                *
+;                                                        *
+;*********************************************************
+
+
+.Section1 Flags
+DesignName=E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.DSN
+.End
+
+.Section2 GateAndPinSwap
+	CHANGEREF C1 C17
+	CHANGEREF C10 C6
+	CHANGEREF C11 C5
+	CHANGEREF C12 C8
+	CHANGEREF C13 C1
+	CHANGEREF C14 C3
+	CHANGEREF C15 C11
+	CHANGEREF C16 C4
+	CHANGEREF C17 C7
+	CHANGEREF C2 C15
+	CHANGEREF C3 C16
+	CHANGEREF C4 C14
+	CHANGEREF C5 C13
+	CHANGEREF C6 C10
+	CHANGEREF C7 C12
+	CHANGEREF C8 C9
+	CHANGEREF C9 C2
+	CHANGEREF D1 D2
+	CHANGEREF D2 D1
+	CHANGEREF L1 L2
+	CHANGEREF L2 L1
+	CHANGEREF R1 R5
+	CHANGEREF R10 R11
+	CHANGEREF R11 R6
+	CHANGEREF R2 R8
+	CHANGEREF R3 R9
+	CHANGEREF R4 R1
+	CHANGEREF R5 R3
+	CHANGEREF R6 R2
+	CHANGEREF R7 R10
+	CHANGEREF R8 R7
+	CHANGEREF R9 R4
+	CHANGEREF U1 U3
+	CHANGEREF U3 U1
+.End
+

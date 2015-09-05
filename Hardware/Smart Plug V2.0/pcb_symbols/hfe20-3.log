@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : hfe20-3.dra                                   )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Fri Apr 27 10:32:02 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/Embedded Projects/PlugMeter_Zigbee/pcb_symbols
+    Name      = hfe20-3.psm
+    User      = xiaocai
+    Machine   = XIAOCAI-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

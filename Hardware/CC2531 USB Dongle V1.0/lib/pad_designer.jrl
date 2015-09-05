@@ -1,0 +1,9 @@
+\t (00:00:00) pad_designer 16.5 S005 (v16-5-13P) i86
+\t (00:00:00)     Journal start - Thu Oct 25 15:51:20 2012
+\t (00:00:00)         Host=XIAOCAI-PC User=xiaocai Pid=6616 CPUs=4
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) pse_open 
+\i (00:00:32) fillin "D:\Cadence\SPB_16.5\share\pcb\pcb_lib\symbols\via.pad"
+\i (00:00:32) cd "D:\Cadence\SPB_16.5\share\pcb\pcb_lib\symbols"
+\t (00:00:32)     Journal end - Thu Oct 25 15:51:52 2012

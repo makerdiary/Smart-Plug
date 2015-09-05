@@ -1,0 +1,14 @@
+Date and Time : 04/26/12 14:13:45
+
+--------------------------------------------------
+Checking Schematic: PlugMeter
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections 3 
+                    PlugMeter, CC2530_EM_V2_0  (226.06, 152.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections +5V_EXT 
+                    PlugMeter, PlugMeter_V2_0  (314.96, 33.02) 
+
+Checking For Unconnected Bus Nets

@@ -1,0 +1,241 @@
+(ExpressProject "CC2531UD"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\cc2531ud.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\CC2531UD.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Configuration File"
+       "D:\Cadence\SPB_16.5\tools\capture\allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "E:\Applications & Projects\CC2531UD\pcb\cc2531ud.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\ALLEGRO")
+    ("Allegro Backannotation Output File" "allegro\CC2531UD.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.SWP")
+    (Backannotation_TAB "0"))
+  (Folder "Outputs"
+    (File ".\cc2531ud.drc"
+      (Type "Report"))
+    (File ".\session log"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\cc2531ud.bom"
+      (Type "Report"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\cc2531ud.swp"
+      (Type "Report")
+      (DisplayName "CC2531UD.swp")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (VCC_BAR
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON-SPST"
+      (FullPartName "SW PUSHBUTTON-SPST.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R2
+      (FullPartName "R2.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5X2"
+      (FullPartName "HEADER 5X2.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (USB_A
+      (FullPartName "USB_A.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OSC_32M
+      (FullPartName "OSC_32M.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (ANTENNA
+      (FullPartName "ANTENNA.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (2450BM15A0002
+      (FullPartName "2450BM15A0002.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (CC2530
+      (FullPartName "CC2530.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("GND_FIELD SIGNAL"
+      (LibraryName "D:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TPS76933
+      (FullPartName "TPS76933.Normal")
+      (LibraryName "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\LIBRARY.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources" ".\cc2531ud.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 281"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1188 50 369")
+        (Scroll "306 192")
+        (Zoom "162")
+        (Occurrence "/"))
+      (Path "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.DSN")
+      (Schematic "CC2531UD")
+      (Page "CC2531_RF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1213 75 394")
+        (Scroll "0 368")
+        (Zoom "162")
+        (Occurrence "/"))
+      (Path "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.DSN")
+      (Schematic "CC2531UD")
+      (Page "CONNECTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 1138 0 319")
+        (Scroll "472 138")
+        (Zoom "162")
+        (Occurrence "/"))
+      (Path "E:\APPLICATIONS & PROJECTS\CC2531UD\SCH\CC2531UD.DSN")
+      (Schematic "CC2531UD")
+      (Page "POWER")))
+  (MPSSessionName "xiaocai")
+  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.5\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))

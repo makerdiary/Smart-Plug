@@ -1,0 +1,19 @@
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Release\Smart-Energy Management System.exe.config
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Release\Smart-Energy Management System.exe
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Release\Smart-Energy Management System.pdb
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\UserControls\Button.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\UserControls\ListBox.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\MainWindow.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\UserControls\StatusBar.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\UserControls\TabControl.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\UserControls\TabItem.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\UserControls\windows.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\App.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\MainWindow.g.cs
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\App.g.cs
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\Smart-Energy Management System_MarkupCompile.cache
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\Smart-Energy Management System.g.resources
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\Smart_Energy_Management_System.Properties.Resources.resources
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\Smart-Energy Management System.csproj.GenerateResource.Cache
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\Smart-Energy Management System.exe
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Release\Smart-Energy Management System.pdb

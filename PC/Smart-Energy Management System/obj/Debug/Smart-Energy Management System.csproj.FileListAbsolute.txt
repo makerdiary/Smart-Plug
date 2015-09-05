@@ -1,0 +1,26 @@
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\Smart-Energy Management System.exe.config
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart-Energy Management System.csprojResolveAssemblyReference.cache
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\MainWindow.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\App.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\MainWindow.g.cs
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\App.g.cs
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart-Energy Management System_MarkupCompile.cache
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart-Energy Management System.g.resources
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart_Energy_Management_System.Properties.Resources.resources
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart-Energy Management System.csproj.GenerateResource.Cache
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\Smart-Energy Management System.exe
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\Smart-Energy Management System.pdb
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart-Energy Management System.exe
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\Smart-Energy Management System.pdb
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\UserControls\Button.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\UserControls\StatusBar.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\UserControls\TabControl.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\UserControls\TabItem.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\UserControls\windows.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\obj\Debug\UserControls\GlassListBox.baml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\WPFVisifire.Charts.dll
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\WPFVisifire.Gauges.dll
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\ToggleSwitch.dll
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\System.Data.SQLite.dll
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\System.Data.SQLite.xml
+E:\Embedded Projects\Smart_Plug\PC\Smart Energy Management System\Smart-Energy Management System\bin\Debug\xceed.wpf.toolkit.dll

@@ -1,0 +1,470 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.5.0 p001Oct-25-2012 at 19:07:27 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='CC2531UD';
+ POST_TIME='Mar 26 2012 19:10:13';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ A1 'ANTENNA_ANTENNA_IIFA_1_LEFT_ANT':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS2708@LIBRARY.ANTENNA.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins2708@\library\.\antenna.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins2708@\library\.\antenna.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP NP_C_0603_C_1U_0603_X5R_L_6':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS103@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins103@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins103@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_C_0402_C_100N_0402_X5R_K':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS921@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins921@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins921@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_C_0402_C_220P_0402_NP0_J':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS937@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins937@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins937@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_C_0402_C_100N_0402_X5R_K':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS953@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins953@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins953@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP NP_C_0402_C_0P5_0402_NP0_B_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS2580@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins2580@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins2580@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP NP_C_0402_C_1N_0402_NP0_J_5':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3637@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3637@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3637@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_C_0402_C_1U_0402_X5R_K_6':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3293@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3293@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3293@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_C_0402_C_27P_0402_NP0_J_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3424@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3424@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3424@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_C_0402_C_27P_0402_NP0_J_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3442@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3442@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3442@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_C_0402_C_47P_0402_NP0_J_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5270@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5270@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5270@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_C_0402_C_47P_0402_NP0_J_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5286@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5286@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5286@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_C_0603_C_4U7_0603_X5R_K_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS119@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins119@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins119@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_C_0402_C_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS135@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins135@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins135@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_C_0402_C_2U2_0402_X5R_M_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS969@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins969@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins969@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_C_0402_C_10P_0402_NP0_J_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS832@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins832@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins832@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_C_0402_C_1U_0402_X5R_K_6':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS848@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins848@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins848@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_C_0402_C_100N_0402_X5R_K':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS864@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins864@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins864@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_C_0402_C_100N_0402_X5R_K':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS880@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins880@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins880@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_C_0402_C_100N_0402_X5R_K':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS905@LIBRARY.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins905@\library\.\cap np.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins905@\library\.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_LEDC_0805_LED_RED':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6301@LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6301@\library\.\led.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6301@\library\.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_LEDC_0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6317@LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6317@\library\.\led.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6317@\library\.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER 8_SHDRV8W50P0_125_DEBUG':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS7624@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins7624@connector.\header 8.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins7624@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER 8_SHDRV8W50P0_125_IO':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6146@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6146@connector.\header 8.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6146@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_R_0402_L_BEAD_102_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS2144@LIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins2144@\library\.\inductor.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins2144@\library\.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_R_0402_L_6N8_0402_J':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3149@LIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3149@\library\.\inductor.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3149@\library\.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ P1 'USB_A_1_USBA_USB_A':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5079@CC2531UD.USB_A_1.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5079@cc2531ud.\usb_a_1.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5079@cc2531ud.\usb_a_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R2_R_0402_R_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS430@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins430@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins430@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R2_R_0402_R_1K5_0402_G':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5495@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5495@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5495@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R2_R_0402_R_270_0402_F':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6358@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6358@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6358@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R2_R_0402_R_33_0402_G':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5198@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5198@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5198@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R2_R_0402_R_33_0402_G':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5182@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5182@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5182@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R2_R_0402_R_0_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS446@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins446@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins446@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R2_R_0402_R_2_0402_F':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS302@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins302@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins302@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R2_R_0402_R_0_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS2605@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins2605@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins2605@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R2_R_0402_R_2K2_0402_G':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3664@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3664@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3664@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R2_R_0402_R_56K_0402_F':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3203@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3203@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3203@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R2_R_0402_R_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5526@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5526@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5526@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R2_R_0402_R_270_0402_F':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6342@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6342@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6342@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R2_R_0402_R_0_0402':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS5585@LIBRARY.R2.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins5585@\library\.\r2.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins5585@\library\.\r2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW PUSHBUTTON-SPST_SW7939X216N_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6523@DISCRETE.SW PUSHBUTTON-SPST.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6523@discrete.\sw pushbutton-spst.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6523@discrete.\sw pushbutton-spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW PUSHBUTTON-SPST_SW7939X216N_':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS6539@DISCRETE.SW PUSHBUTTON-SPST.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins6539@discrete.\sw pushbutton-spst.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page3_ins6539@discrete.\sw pushbutton-spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'TPS76933_SOT95P280X145-5N_TPS76':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS36@LIBRARY.TPS76933.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins36@\library\.\tps76933.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page1_ins36@\library\.\tps76933.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'CC2530_S-PVQFN-M40_CC2531':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS619@LIBRARY.CC2530.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins619@\library\.\cc2530.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins619@\library\.\cc2530.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 '2450BM15A0002_2450BM15A0002_245':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS2414@LIBRARY.2450BM15A0002.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins2414@\library\.\2450bm15a0002.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins2414@\library\.\2450bm15a0002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ X1 'OSC_32M_XTAL_SMD_3_2X2_5_OSC_32':;
+
+SECTION_NUMBER 1
+ '@CC2531UD.CC2531UD(SCH_1):INS3042@LIBRARY.OSC_32M.NORMAL(CHIPS)':
+ C_PATH='@cc2531ud.cc2531ud(sch_1):ins3042@\library\.\osc_32m.normal\(chips)',
+ P_PATH='@cc2531ud.cc2531ud(sch_1):page2_ins3042@\library\.\osc_32m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

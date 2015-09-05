@@ -1,0 +1,14 @@
+Date and Time : 10/24/12 19:13:29
+
+--------------------------------------------------
+Checking Schematic: CC2531UD
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections 2 
+                    CC2531UD, CC2531_RF  (5.40, 5.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections 4 
+                    CC2531UD, CC2531_RF  (5.30, 5.50) 
+
+Checking For Unconnected Bus Nets

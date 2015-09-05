@@ -1,0 +1,16 @@
+\t (00:00:13) pad_designer 16.5 S005 (v16-5-13P) i86
+\t (00:00:13)     Journal start - Thu Oct 25 14:10:29 2012
+\t (00:00:13)         Host=XIAOCAI-PC User=xiaocai Pid=6444 CPUs=4
+\t (00:00:13) 
+\i (00:00:16) FORM padedit layers  
+\i (00:00:20) FORM padedit grid row soldermask_top 
+\i (00:00:41) FORM padedit width 36 
+\i (00:00:43) FORM padedit grid row soldermask_bottom 
+\i (00:00:44) FORM padedit grid row soldermask_top 
+\i (00:00:50) FORM padedit grid rpopup soldermask_top Copy 
+\i (00:00:50) FORM padedit grid row soldermask_bottom 
+\i (00:00:52) FORM padedit grid rpopup soldermask_bottom Paste 
+\i (00:00:58) pse_save_as 
+\i (00:01:16) fillin "via12_24_36.pad"
+\i (00:01:17) pse_exit
+\t (00:01:17)     Journal end - Thu Oct 25 14:11:33 2012

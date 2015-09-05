@@ -1,0 +1,750 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.30.1.53127/W32 for ARM              28/Apr/2013  14:29:55 #
+# Copyright 2007-2011 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\Ex #
+#                    e\Smart_Plug_Coordinator.out.tmp                         #
+#    Map file     =  E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\Li #
+#                    st\Smart_Plug_Coordinator.map                            #
+#    Command line =  "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\af_zdo.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_ #
+#                    Plug\Router\Obj\app.o" "E:\Embedded                      #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\applicatio #
+#                    n_configuration.o" "E:\Embedded                          #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\bsp.o"     #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\conversions.o" "E:\Embedded                           #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\core_cm0.o #
+#                    " "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router #
+#                    \Obj\croutine.o" "E:\Embedded                            #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\gpio.o"    #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\header.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_ #
+#                    Plug\Router\Obj\heap_2.o" "E:\Embedded                   #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\i2c.o"     #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\infoMessage.o" "E:\Embedded                           #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\lcd.o"     #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\list.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Pl #
+#                    ug\Router\Obj\main.o" "E:\Embedded                       #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\nvmem.o"   #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\pcb.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plu #
+#                    g\Router\Obj\port.o" "E:\Embedded                        #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\portasm.o" #
+#                     "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\ #
+#                    Obj\queue.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_ #
+#                    Plug\Router\Obj\rfhandler.o" "E:\Embedded                #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\rtk_FreeRT #
+#                    OS.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Ro #
+#                    uter\Obj\simple_api.o" "E:\Embedded                      #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\startup_ar #
+#                    mcm0.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\ #
+#                    Router\Obj\string_functions.o" "E:\Embedded              #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\system_EM7 #
+#                    xx.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Ro #
+#                    uter\Obj\tasks.o" "E:\Embedded                           #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\uart.o"    #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\O #
+#                    bj\wdt.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plu #
+#                    g\Router\Obj\znpRfTestInterface.o" "E:\Embedded          #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\znp_comman #
+#                    ds.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Ro #
+#                    uter\Obj\znp_hal.o" "E:\Embedded                         #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\znp_interf #
+#                    ace.o" "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\R #
+#                    outer\Obj\znp_interface_spi.o" "E:\Embedded              #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Obj\znp_util_i #
+#                    nterface.o" --redirect _Printf=_PrintfSmall --redirect   #
+#                    _Scanf=_ScanfSmall -o "E:\Embedded                       #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\Exe\Smart_Plug #
+#                    _Coordinator.out.tmp" --map "E:\Embedded                 #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\List\Smart_Plu #
+#                    g_Coordinator.map" --log initialization,modules,sections #
+#                    ,veneers --log_file "E:\Embedded                         #
+#                    Projects\Smart_Plug\APP\Smart_Plug\Router\List\Smart_Plu #
+#                    g_Coordinator.log" --config "E:\Embedded                 #
+#                    Projects\Smart_Plug\APP\Smart_Plug\EM773_Flash.icf"      #
+#                    "E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\..\..\LI #
+#                    B\dbg_metrology.a" --entry __iar_program_start --vfe     #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000100 to 0x00006fff] { ro };
+"P2":  place in [from 0x10000000 to 0x10001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x00000000    0xc0  startup_armcm0.o [1]
+                            - 0x000000c0    0xc0
+
+"P1":                                     0x52d0
+  .text              ro code  0x00000100   0xa7c  app.o [1]
+  .text              ro code  0x00000b7c    0x38  sprintf.o [4]
+  .text              ro code  0x00000bb4   0x31e  uart.o [1]
+  .text              ro code  0x00000ed2    0x2e  copy_init3.o [6]
+  .text              ro code  0x00000f00   0x1a4  string_functions.o [1]
+  .text              ro code  0x000010a4   0x234  nvmem.o [1]
+  .text              ro code  0x000012d8    0x26  FltCmpLe.o [5]
+  .text              ro code  0x000012fe   0x120  FltAddSub.o [5]
+  .text              ro code  0x0000141e    0xaa  FltDiv.o [5]
+  .text              ro code  0x000014c8   0x668  rfhandler.o [1]
+  .text              ro code  0x00001b30   0x8f0  metrology.o [3]
+  .text              ro code  0x00002420   0x224  gpio.o [1]
+  .text              ro code  0x00002644    0x90  rtk_FreeRTOS.o [1]
+  .text              ro code  0x000026d4    0x24  printf.o [4]
+  .text              ro code  0x000026f8   0x584  znp_interface.o [1]
+  .text              ro code  0x00002c7c    0xb4  FltMul.o [5]
+  .text              ro code  0x00002d30    0x70  atanf.o [5]
+  .text              ro code  0x00002da0    0x5c  ABImemcpy.o [6]
+  .text              ro code  0x00002dfc    0x28  FltCmpGe.o [5]
+  .text              ro code  0x00002e24    0xbc  main.o [1]
+  .text              ro code  0x00002ee0   0x14c  af_zdo.o [1]
+  .text              ro code  0x0000302c   0x50c  xprintfsmall.o [4]
+  .text              ro code  0x00003538    0x56  I32DivMod.o [6]
+  .text              ro code  0x0000358e    0x14  strlen.o [6]
+  .text              ro code  0x000035a2     0xa  xsprout.o [4]
+  .text              ro code  0x000035ac    0x32  I32ToFlt.o [5]
+  .rodata            const    0x000035de     0x2  heap_2.o [1]
+  .text              ro code  0x000035e0    0x3a  FltToS32.o [5]
+  .text              ro code  0x0000361a     0x2  startup_armcm0.o [1]
+  .text              ro code  0x0000361c    0x54  ABImemset.o [6]
+  .text              ro code  0x00003670    0xd8  znp_interface_spi.o [1]
+  .text              ro code  0x00003748    0x20  FltCmpEq.o [5]
+  .text              ro code  0x00003768    0x84  pcb.o [1]
+  .text              ro code  0x000037ec   0x412  queue.o [1]
+  .text              ro code  0x00003bfe     0x2  startup_armcm0.o [1]
+  .text              ro code  0x00003c00   0x180  port.o [1]
+  .text              ro code  0x00003d80   0x6ec  tasks.o [1]
+  .text              ro code  0x0000446c   0x218  znp_hal.o [1]
+  .text              ro code  0x00004684    0xf8  xfatan.o [5]
+  .text              ro code  0x0000477c   0x150  system_EM7xx.o [1]
+  .text              ro code  0x000048cc    0x80  bsp.o [1]
+  .text              ro code  0x0000494c    0x16  znp_interface.o [1]
+  .text              ro code  0x00004962    0x14  strchr.o [6]
+  .text              ro code  0x00004976    0x18  memchr.o [6]
+  .text              ro code  0x0000498e     0x2  startup_armcm0.o [1]
+  .text              ro code  0x00004990     0x2  IntDivZer.o [6]
+  .text              ro code  0x00004994   0x14c  heap_2.o [1]
+  .text              ro code  0x00004ae0    0xa6  list.o [1]
+  CODE               ro code  0x00004b88    0x7c  portasm.o [1]
+  .text              ro code  0x00004c04    0x28  memcmp.o [6]
+  .text              ro code  0x00004c2c    0x26  strncpy.o [6]
+  .text              ro code  0x00004c52    0x16  tasks.o [1]
+  .text              ro code  0x00004c68    0x38  wdt.o [1]
+  .rodata            const    0x00004ca0    0x40  znp_interface.o [1]
+  .rodata            const    0x00004ce0    0x38  znp_interface.o [1]
+  .rodata            const    0x00004d18    0x34  app.o [1]
+  .rodata            const    0x00004d4c    0x30  pcb.o [1]
+  .rodata            const    0x00004d7c    0x2c  znp_interface.o [1]
+  .rodata            const    0x00004da8    0x2c  znp_interface.o [1]
+  .text              ro code  0x00004dd4    0x2c  data_init3.o [6]
+  .rodata            const    0x00004e00    0x28  znp_interface.o [1]
+  .rodata            const    0x00004e28    0x28  znp_interface.o [1]
+  .rodata            const    0x00004e50    0x28  znp_interface.o [1]
+  .rodata            const    0x00004e78    0x28  znp_interface.o [1]
+  .rodata            const    0x00004ea0    0x28  znp_interface.o [1]
+  .rodata            const    0x00004ec8    0x28  znp_interface.o [1]
+  .rodata            const    0x00004ef0    0x28  znp_interface.o [1]
+  .text              ro code  0x00004f18    0x28  zero_init3.o [6]
+  .rodata            const    0x00004f40    0x24  rfhandler.o [1]
+  .rodata            const    0x00004f64    0x24  uart.o [1]
+  .rodata            const    0x00004f88    0x24  znp_interface.o [1]
+  .rodata            const    0x00004fac    0x24  znp_interface.o [1]
+  .rodata            const    0x00004fd0    0x24  znp_interface.o [1]
+  .rodata            const    0x00004ff4    0x24  znp_interface.o [1]
+  .iar.init_table    const    0x00005018    0x24  - Linker created -
+  .rodata            const    0x0000503c    0x20  app.o [1]
+  .rodata            const    0x0000505c    0x20  rfhandler.o [1]
+  .rodata            const    0x0000507c    0x20  znp_interface.o [1]
+  .rodata            const    0x0000509c    0x1c  rfhandler.o [1]
+  .rodata            const    0x000050b8    0x1c  znp_hal.o [1]
+  .rodata            const    0x000050d4    0x18  app.o [1]
+  .rodata            const    0x000050ec    0x18  app.o [1]
+  .rodata            const    0x00005104    0x18  znp_interface.o [1]
+  .text              ro code  0x0000511c    0x16  cmain.o [6]
+  .text              ro code  0x00005132     0x4  low_level_init.o [4]
+  .text              ro code  0x00005136     0x8  exit.o [4]
+  .text              ro code  0x00005140     0xa  cexit.o [6]
+  .text              ro code  0x0000514c     0xc  XXexit.o [6]
+  .text              ro code  0x00005158    0x16  xprout.o [4]
+  .rodata            const    0x00005170    0x14  app.o [1]
+  .rodata            const    0x00005184    0x14  nvmem.o [1]
+  .rodata            const    0x00005198    0x14  rfhandler.o [1]
+  .rodata            const    0x000051ac    0x14  string_functions.o [1]
+  .rodata            const    0x000051c0    0x14  tasks.o [1]
+  .rodata            const    0x000051d4    0x14  znp_interface.o [1]
+  .rodata            const    0x000051e8    0x10  app.o [1]
+  .rodata            const    0x000051f8    0x10  app.o [1]
+  .rodata            const    0x00005208    0x10  app.o [1]
+  .rodata            const    0x00005218    0x10  app.o [1]
+  .rodata            const    0x00005228    0x10  rfhandler.o [1]
+  .rodata            const    0x00005238    0x10  znp_interface.o [1]
+  .rodata            const    0x00005248    0x10  znp_interface.o [1]
+  .rodata            const    0x00005258    0x10  znp_interface.o [1]
+  .rodata            const    0x00005268    0x10  znp_interface.o [1]
+  .rodata            const    0x00005278    0x10  znp_interface.o [1]
+  .rodata            const    0x00005288    0x10  znp_interface.o [1]
+  .rodata            const    0x00005298    0x10  znp_interface.o [1]
+  .rodata            const    0x000052a8     0xc  app.o [1]
+  .rodata            const    0x000052b4     0xc  app.o [1]
+  .rodata            const    0x000052c0     0xc  app.o [1]
+  .rodata            const    0x000052cc     0xc  app.o [1]
+  .rodata            const    0x000052d8     0xc  app.o [1]
+  .rodata            const    0x000052e4     0xc  uart.o [1]
+  .rodata            const    0x000052f0     0xc  uart.o [1]
+  .rodata            const    0x000052fc     0xc  znp_interface.o [1]
+  .rodata            const    0x00005308     0xc  znp_interface.o [1]
+  .rodata            const    0x00005314     0xc  znp_interface.o [1]
+  .text              ro code  0x00005320     0xc  cstartup_M.o [6]
+  .rodata            const    0x0000532c     0x8  app.o [1]
+  .rodata            const    0x00005334     0x8  app.o [1]
+  .rodata            const    0x0000533c     0x8  app.o [1]
+  .rodata            const    0x00005344     0x8  app.o [1]
+  .rodata            const    0x0000534c     0x8  app.o [1]
+  .rodata            const    0x00005354     0x8  app.o [1]
+  .rodata            const    0x0000535c     0x8  app.o [1]
+  .rodata            const    0x00005364     0x8  app.o [1]
+  .rodata            const    0x0000536c     0x8  app.o [1]
+  .rodata            const    0x00005374     0x8  main.o [1]
+  .rodata            const    0x0000537c     0x8  string_functions.o [1]
+  .rodata            const    0x00005384     0x8  string_functions.o [1]
+  .rodata            const    0x0000538c     0x8  string_functions.o [1]
+  .rodata            const    0x00005394     0x8  string_functions.o [1]
+  .rodata            const    0x0000539c     0x8  string_functions.o [1]
+  .rodata            const    0x000053a4     0x8  tasks.o [1]
+  .rodata            const    0x000053ac     0x8  znp_interface.o [1]
+  .rodata            const    0x000053b4     0x4  bsp.o [1]
+  .rodata            const    0x000053b8     0x0  bwt_init3c.o [6]
+  Initializer bytes  ro data  0x000053b8    0x18  <for P2 s0>
+                            - 0x000053d0  0x52d0
+
+"P2", part 1 of 3:                          0x18
+  P2 s0                       0x10000000    0x18  <Init block>
+    .data            inited   0x10000000     0x4  port.o [1]
+    .data            inited   0x10000004     0x4  system_EM7xx.o [1]
+    .data            inited   0x10000008     0x4  system_EM7xx.o [1]
+    .data            inited   0x1000000c     0x4  system_EM7xx.o [1]
+    .data            inited   0x10000010     0x2  app.o [1]
+    .data            inited   0x10000012     0x2  rfhandler.o [1]
+    .data            inited   0x10000014     0x1  app.o [1]
+                            - 0x10000018    0x18
+
+"P2", part 2 of 3:                        0x1ba8
+  .bss               zero     0x10000018  0x1800  heap_2.o [1]
+  .bss               zero     0x10001818    0x8c  metrology.o [3]
+  .bss               zero     0x100018a4    0x64  tasks.o [1]
+  .bss               zero     0x10001908    0x64  uart.o [1]
+  .bss               zero     0x1000196c    0x64  znp_interface_spi.o [1]
+  .bss               zero     0x100019d0    0x40  app.o [1]
+  .bss               zero     0x10001a10    0x40  rfhandler.o [1]
+  .bss               zero     0x10001a50    0x34  nvmem.o [1]
+  .bss               zero     0x10001a84    0x24  app.o [1]
+  .bss               zero     0x10001aa8    0x18  metrology.o [3]
+  .bss               zero     0x10001ac0    0x14  app.o [1]
+  .bss               zero     0x10001ad4    0x14  app.o [1]
+  .bss               zero     0x10001ae8    0x14  tasks.o [1]
+  .bss               zero     0x10001afc    0x14  tasks.o [1]
+  .bss               zero     0x10001b10    0x14  tasks.o [1]
+  .bss               zero     0x10001b24    0x10  pcb.o [1]
+  .bss               zero     0x10001b34     0x8  heap_2.o [1]
+  .bss               zero     0x10001b3c     0x8  heap_2.o [1]
+  .bss               zero     0x10001b44     0x8  main.o [1]
+  .bss               zero     0x10001b4c     0x4  app.o [1]
+  .bss               zero     0x10001b50     0x4  app.o [1]
+  .bss               zero     0x10001b54     0x4  heap_2.o [1]
+  .bss               zero     0x10001b58     0x4  heap_2.o [1]
+  .bss               zero     0x10001b5c     0x4  main.o [1]
+  .bss               zero     0x10001b60     0x4  main.o [1]
+  .bss               zero     0x10001b64     0x4  nvmem.o [1]
+  .bss               zero     0x10001b68     0x4  tasks.o [1]
+  .bss               zero     0x10001b6c     0x4  tasks.o [1]
+  .bss               zero     0x10001b70     0x4  tasks.o [1]
+  .bss               zero     0x10001b74     0x4  tasks.o [1]
+  .bss               zero     0x10001b78     0x4  tasks.o [1]
+  .bss               zero     0x10001b7c     0x4  tasks.o [1]
+  .bss               zero     0x10001b80     0x4  tasks.o [1]
+  .bss               zero     0x10001b84     0x4  tasks.o [1]
+  .bss               zero     0x10001b88     0x4  tasks.o [1]
+  .bss               zero     0x10001b8c     0x4  tasks.o [1]
+  .bss               zero     0x10001b90     0x4  tasks.o [1]
+  .bss               zero     0x10001b94     0x4  tasks.o [1]
+  .bss               zero     0x10001b98     0x4  tasks.o [1]
+  .bss               zero     0x10001b9c     0x4  uart.o [1]
+  .bss               zero     0x10001ba0     0x4  uart.o [1]
+  .bss               zero     0x10001ba4     0x4  uart.o [1]
+  .bss               zero     0x10001ba8     0x4  znp_interface.o [1]
+  .bss               zero     0x10001bac     0x2  main.o [1]
+  .bss               zero     0x10001bae     0x2  uart.o [1]
+  .bss               zero     0x10001bb0     0x2  uart.o [1]
+  .bss               zero     0x10001bb2     0x2  uart.o [1]
+  .bss               zero     0x10001bb4     0x2  uart.o [1]
+  .bss               zero     0x10001bb6     0x2  uart.o [1]
+  .bss               zero     0x10001bb8     0x2  uart.o [1]
+  .bss               zero     0x10001bba     0x1  af_zdo.o [1]
+  .bss               zero     0x10001bbb     0x1  app.o [1]
+  .bss               zero     0x10001bbc     0x1  rfhandler.o [1]
+  .bss               zero     0x10001bbd     0x1  rfhandler.o [1]
+  .bss               zero     0x10001bbe     0x1  rfhandler.o [1]
+                            - 0x10001bbf  0x1ba7
+
+"P2", part 3 of 3:                         0x180
+  CSTACK                      0x10001bc0   0x180  <Block>
+    CSTACK           uninit   0x10001bc0   0x180  <Block tail>
+                            - 0x10001d40   0x180
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1ba7:
+          0x10000018  0x1ba7
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18 (114% of destination):
+          0x000053b8    0x18
+    1 destination range, total size 0x15:
+          0x10000000    0x15
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\Obj: [1]
+    af_zdo.o                 332                 1
+    app.o                  2 684      351      152
+    bsp.o                    128        4
+    gpio.o                   548
+    heap_2.o                 332        2    6 168
+    list.o                   166
+    main.o                   188        8       18
+    nvmem.o                  564       20       56
+    pcb.o                    132       48       16
+    port.o                   384        4        4
+    portasm.o                124
+    queue.o                1 042
+    rfhandler.o            1 640      134       69
+    rtk_FreeRTOS.o           144
+    startup_armcm0.o         198
+    string_functions.o       420       60
+    system_EM7xx.o           336       12       12
+    tasks.o                1 794       28      212
+    uart.o                   798       60      124
+    wdt.o                     56
+    znp_hal.o                536       28
+    znp_interface.o        1 434      864        4
+    znp_interface_spi.o      216               100
+    ----------------------------------------------
+    Total:                14 196    1 623    6 936
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dbg_metrology.a: [3]
+    metrology.o            2 288               164
+    ----------------------------------------------
+    Total:                 2 288               164
+
+dl6M_tln.a: [4]
+    exit.o                     8
+    low_level_init.o           4
+    printf.o                  36
+    sprintf.o                 56
+    xprintfsmall.o         1 292
+    xprout.o                  22
+    xsprout.o                 10
+    ----------------------------------------------
+    Total:                 1 428
+
+m6M_tl.a: [5]
+    FltAddSub.o              288
+    FltCmpEq.o                32
+    FltCmpGe.o                40
+    FltCmpLe.o                38
+    FltDiv.o                 170
+    FltMul.o                 180
+    FltToS32.o                58
+    I32ToFlt.o                50
+    atanf.o                  112
+    xfatan.o                 248
+    ----------------------------------------------
+    Total:                 1 216
+
+rt6M_tl.a: [6]
+    ABImemcpy.o               92
+    ABImemset.o               84
+    I32DivMod.o               86
+    IntDivZer.o                2
+    XXexit.o                  12
+    bwt_init3c.o
+    cexit.o                   10
+    cmain.o                   22
+    copy_init3.o              46
+    cstartup_M.o              12
+    data_init3.o              44
+    memchr.o                  24
+    memcmp.o                  40
+    strchr.o                  20
+    strlen.o                  20
+    strncpy.o                 38
+    zero_init3.o              40
+    ----------------------------------------------
+    Total:                   592
+
+    Gaps                       8        2        3
+    Linker created                     39      384
+--------------------------------------------------
+    Grand Total:          19 728    1 664    7 487
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x0000511d          Code  Gb  cmain.o [6]
+AppStart                0x00002e25     0xc  Code  Lc  main.o [1]
+BOD_IRQHandler          0x00000439    0x16  Code  Gb  app.o [1]
+CSTACK$$Base            0x10001bc0           --   Gb  - Linker created -
+CSTACK$$Limit           0x10001d40           --   Gb  - Linker created -
+CalData                 0x10001a84    0x24  Data  Lc  app.o [1]
+CalcAverage             0x000004f1    0x84  Code  Lc  app.o [1]
+ClockSource             0x10000008     0x4  Data  Gb  system_EM7xx.o [1]
+Default_Handler         0x0000498f          Code  Wk  startup_armcm0.o [1]
+Get_sys_seconds_cnt     0x00002ebf     0x6  Code  Gb  main.o [1]
+HardFault_Handler       0x00003bff          Code  Wk  startup_armcm0.o [1]
+Main_PLL_Setup          0x000047bd    0x8c  Code  Gb  system_EM7xx.o [1]
+NMI_Handler             0x0000361b          Code  Wk  startup_armcm0.o [1]
+NVIC_EnableIRQ          0x00000101     0xe  Code  Lc  app.o [1]
+NVIC_EnableIRQ          0x00000bb5     0xe  Code  Lc  uart.o [1]
+NVIC_SetPriority        0x0000010f    0x8e  Code  Lc  app.o [1]
+NVIC_SetPriority        0x00003c01    0x8e  Code  Lc  port.o [1]
+NVIC_SetPriority        0x00000bc3    0x8e  Code  Lc  uart.o [1]
+Packet_Tx_Msg           0x00001505   0x28e  Code  Gb  rfhandler.o [1]
+Print_Rx_Msg            0x000017ad   0x1f0  Code  Gb  rfhandler.o [1]
+Region$$Table$$Base     0x00005018           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000503c           --   Gb  - Linker created -
+Reset_msec_cnt          0x00002eb3     0xc  Code  Gb  main.o [1]
+Ser_Init                0x00000d41    0xc8  Code  Gb  uart.o [1]
+Ser_WrStr               0x00000e65    0x16  Code  Gb  uart.o [1]
+Ser_Write               0x00000e0d    0x36  Code  Gb  uart.o [1]
+StoreInRxBuffer         0x00000c51    0x42  Code  Lc  uart.o [1]
+SysTick_Config          0x00003c8f    0x38  Code  Lc  port.o [1]
+SystemAHBFrequency      0x1000000c     0x4  Data  Gb  system_EM7xx.o [1]
+SystemCoreClock         0x10000004     0x4  Data  Gb  system_EM7xx.o [1]
+SystemInit              0x00004849    0x38  Code  Gb  system_EM7xx.o [1]
+UART_IRQHandler         0x00000c93    0xae  Code  Gb  uart.o [1]
+UART_RxBufCnt           0x10001bb0     0x2  Data  Gb  uart.o [1]
+UART_RxBufReadPos       0x10001bb2     0x2  Data  Gb  uart.o [1]
+UART_RxBufWritePos      0x10001bb4     0x2  Data  Gb  uart.o [1]
+UART_RxBuffer           0x10001908    0x64  Data  Gb  uart.o [1]
+UART_RxOverflowCnt      0x10001bb6     0x2  Data  Gb  uart.o [1]
+UART_TxBusySem          0x10001ba0     0x4  Data  Gb  uart.o [1]
+UART_TxCount            0x10001bb8     0x2  Data  Gb  uart.o [1]
+UART_TxPdata            0x10001ba4     0x4  Data  Gb  uart.o [1]
+UART_TxReadySem         0x10001b9c     0x4  Data  Gb  uart.o [1]
+UART_status             0x10001bae     0x2  Data  Gb  uart.o [1]
+WDT_CLK_Setup           0x0000477d    0x3c  Code  Gb  system_EM7xx.o [1]
+WDT_Init                0x00004c69    0x2a  Code  Gb  wdt.o [1]
+WDT_clk_get             0x000047b9     0x4  Code  Gb  system_EM7xx.o [1]
+_LitobSmall             0x00003431   0x104  Code  Lc  xprintfsmall.o [4]
+_PrintfSmall            0x0000302d   0x3fa  Code  Gb  xprintfsmall.o [4]
+_Prout                  0x00005159    0x16  Code  Gb  xprout.o [4]
+_SProut                 0x000035a3     0xa  Code  Gb  xsprout.o [4]
+__aeabi_cfcmpeq         0x00003749          Code  Gb  FltCmpEq.o [5]
+__aeabi_cfcmple         0x000012d9          Code  Gb  FltCmpLe.o [5]
+__aeabi_cfrcmple        0x00002dfd          Code  Gb  FltCmpGe.o [5]
+__aeabi_f2iz            0x000035e1          Code  Gb  FltToS32.o [5]
+__aeabi_fadd            0x000012ff          Code  Gb  FltAddSub.o [5]
+__aeabi_fdiv            0x0000141f          Code  Gb  FltDiv.o [5]
+__aeabi_fmul            0x00002c7d          Code  Gb  FltMul.o [5]
+__aeabi_fsub            0x0000136f          Code  Gb  FltAddSub.o [5]
+__aeabi_i2f             0x000035ad          Code  Gb  I32ToFlt.o [5]
+__aeabi_idiv            0x00003539          Code  Gb  I32DivMod.o [6]
+__aeabi_idiv0           0x00004991          Code  Gb  IntDivZer.o [6]
+__aeabi_idivmod         0x00003539          Code  Gb  I32DivMod.o [6]
+__aeabi_memclr4         0x0000366d          Code  Gb  ABImemset.o [6]
+__aeabi_memclr8         0x0000366d          Code  Gb  ABImemset.o [6]
+__aeabi_memcpy          0x00002da1          Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4         0x00002dc9          Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x00002dc9          Code  Gb  ABImemcpy.o [6]
+__aeabi_memset          0x0000361d          Code  Gb  ABImemset.o [6]
+__aeabi_uidiv           0x00003561          Code  Gb  I32DivMod.o [6]
+__aeabi_uidivmod        0x00003561          Code  Gb  I32DivMod.o [6]
+__cmain                 0x0000511d          Code  Gb  cmain.o [6]
+__exit                  0x0000514d          Code  Gb  XXexit.o [6]
+__iar_FAtan             0x00004685    0xb6  Code  Gb  xfatan.o [5]
+__iar_Memchr            0x00004977    0x18  Code  Gb  memchr.o [6]
+__iar_Memset4_word      0x0000363d          Code  Gb  ABImemset.o [6]
+__iar_Memset_word       0x00003629          Code  Gb  ABImemset.o [6]
+__iar_SB                0x000053b8          Data  Gb  bwt_init3c.o [6]
+__iar_Strchr            0x00004963    0x14  Code  Gb  strchr.o [6]
+__iar_copy_init3        0x00000ed3    0x2e  Code  Gb  copy_init3.o [6]
+__iar_data_init3        0x00004dd5    0x2c  Code  Gb  data_init3.o [6]
+__iar_default_requirements$$_Printf<unknown>printf {Abs}
+                        0x00000000           --   Gb  printf.o [4]
+__iar_default_requirements$$_Printf<unknown>sprintf {Abs}
+                        0x00000000           --   Gb  sprintf.o [4]
+__iar_program_start     0x00005321          Code  Gb  cstartup_M.o [6]
+__iar_provide$$_Printf<flags,int_specials,qualifiers,widths>_PrintfSmall {Abs}
+                        0x00000000           --   Gb  xprintfsmall.o [4]
+__iar_ui2f              0x000035c5          Code  Gb  I32ToFlt.o [5]
+__iar_zero_init3        0x00004f19    0x28  Code  Gb  zero_init3.o [6]
+__low_level_init        0x00005133     0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x00000000          Data  Gb  startup_armcm0.o [1]
+__vector_table_0x1c     0x0000001c          Data  Gb  startup_armcm0.o [1]
+_call_main              0x00005129          Code  Gb  cmain.o [6]
+_exit                   0x00005141          Code  Gb  cexit.o [6]
+_main                   0x0000512f          Code  Gb  cmain.o [6]
+a                       0x0000475c    0x20  Data  Lc  xfatan.o [5]
+afRegisterGenericApplication
+                        0x00002ee1    0x54  Code  Gb  af_zdo.o [1]
+afSendData              0x00002f59    0xc6  Code  Gb  af_zdo.o [1]
+app_main                0x00000679   0x4a2  Code  Gb  app.o [1]
+app_millisec_cnt        0x10001b44     0x8  Data  Lc  main.o [1]
+app_print_info          0x0000019d    0x3a  Code  Lc  app.o [1]
+atanf                   0x00002d31    0x70  Code  Gb  atanf.o [5]
+bod_sec_counter         0x10001bbb     0x1  Data  Lc  app.o [1]
+bsp_init                0x000048cd    0x80  Code  Gb  bsp.o [1]
+calibration             0x10001aac    0x14  Data  Lc  metrology.o [3]
+calibration_ranges      0x10001ad4    0x14  Data  Lc  app.o [1]
+clear_calc_result       0x0000046d    0x6c  Code  Lc  app.o [1]
+copy_calc_results       0x00000b21    0x2e  Code  Gb  app.o [1]
+delayMs                 0x000045bb    0x18  Code  Gb  znp_hal.o [1]
+delayUs                 0x000045d5    0x26  Code  Gb  znp_hal.o [1]
+em                      0x10001818    0x8c  Data  Lc  metrology.o [3]
+em_0                    0x00001b31    0x16  Code  Lc  metrology.o [3]
+em_1                    0x00001b47    0x3a  Code  Lc  metrology.o [3]
+em_2                    0x00001b81    0x32  Code  Lc  metrology.o [3]
+em_3                    0x00001bb3    0x7c  Code  Lc  metrology.o [3]
+em_4                    0x00001c2f    0x10  Code  Lc  metrology.o [3]
+em_5                    0x00001c3f    0x34  Code  Lc  metrology.o [3]
+em_6                    0x00001c73    0x8e  Code  Lc  metrology.o [3]
+em_7                    0x00001d01     0xa  Code  Lc  metrology.o [3]
+em_8                    0x00001d0b     0x8  Code  Lc  metrology.o [3]
+em_NextCalibrationState
+                        0x0000059d    0x78  Code  Gb  app.o [1]
+em_get_relay_state      0x0000065b     0x6  Code  Gb  app.o [1]
+em_relay_close          0x00000631    0x2a  Code  Gb  app.o [1]
+erase_flash_sector      0x000010a5    0x50  Code  Lc  nvmem.o [1]
+exit                    0x00005137     0x8  Code  Gb  exit.o [4]
+ftos                    0x00000f01   0x100  Code  Gb  string_functions.o [1]
+getConfigurationParameter
+                        0x00002b81    0x56  Code  Gb  znp_interface.o [1]
+getDeviceInformation    0x000027cd   0x13c  Code  Gb  znp_interface.o [1]
+getDeviceInformationProperty
+                        0x00002731    0x3a  Code  Gb  znp_interface.o [1]
+getDeviceStateName      0x0000276b    0x5a  Code  Gb  znp_interface.o [1]
+getNetworkConfigurationParameters
+                        0x00002add    0x9c  Code  Gb  znp_interface.o [1]
+getTimeFormat           0x00001001    0x5c  Code  Gb  string_functions.o [1]
+get_tx_interval         0x000014e9     0x6  Code  Gb  rfhandler.o [1]
+gpio_alloc              0x0000242f    0x3e  Code  Gb  gpio.o [1]
+gpio_blink              0x00002585    0x54  Code  Gb  gpio.o [1]
+gpio_chdir              0x0000246d    0x70  Code  Gb  gpio.o [1]
+gpio_clr                0x00002531    0x54  Code  Gb  gpio.o [1]
+gpio_getval             0x000025d9    0x46  Code  Gb  gpio.o [1]
+gpio_init               0x00002421     0xe  Code  Gb  gpio.o [1]
+gpio_set                0x000024dd    0x54  Code  Gb  gpio.o [1]
+halSpiInitZnp           0x00004485    0xb4  Code  Gb  znp_hal.o [1]
+heapSTRUCT_SIZE         0x000035de     0x2  Data  Lc  heap_2.o [1]
+init_busy               0x10001aa8     0x1  Data  Lc  metrology.o [3]
+ipc_calc_result         0x100019d0    0x40  Data  Lc  app.o [1]
+ipc_mutex               0x10001b50     0x4  Data  Lc  app.o [1]
+main                    0x00002e31    0x2a  Code  Gb  main.o [1]
+mains_freq              0x10001bbe     0x1  Data  Lc  rfhandler.o [1]
+memcmp                  0x00004c05    0x28  Code  Gb  memcmp.o [6]
+memcpy                  0x0000494d    0x16  Code  Gb  znp_interface.o [1]
+memset                  0x00004c53    0x16  Code  Gb  tasks.o [1]
+metrology_IRQHandler    0x00001d41   0x22e  Code  Gb  metrology.o [3]
+metrology_get_gainchannel
+                        0x000020f5     0x8  Code  Gb  metrology.o [3]
+metrology_init          0x00001fd9   0x11c  Code  Gb  metrology.o [3]
+metrology_ranges        0x10001ac0    0x14  Data  Lc  app.o [1]
+metrology_read_data     0x00002169   0x2aa  Code  Gb  metrology.o [3]
+metrology_set_ranges    0x00001f7d    0x30  Code  Gb  metrology.o [3]
+metrology_start         0x000020fd    0x2c  Code  Gb  metrology.o [3]
+nvm_storage             0x10001a50    0x34  Data  Lc  nvmem.o [1]
+nvmem_init              0x000010f5    0xb2  Code  Gb  nvmem.o [1]
+nvmem_readID            0x0000128b    0x3a  Code  Gb  nvmem.o [1]
+nvmem_read_counters     0x000011f7     0xe  Code  Gb  nvmem.o [1]
+nvmem_read_ranges       0x000011a7    0x28  Code  Gb  nvmem.o [1]
+nvmem_store_in_flash    0x0000120f    0x7c  Code  Gb  nvmem.o [1]
+nvmem_write_counters    0x00001205     0xa  Code  Gb  nvmem.o [1]
+nvmem_write_ranges      0x000011cf    0x28  Code  Gb  nvmem.o [1]
+pAppStartHandle         0x10001b5c     0x4  Data  Gb  main.o [1]
+pcb_addr_table          0x00004d4c    0x30  Data  Gb  pcb.o [1]
+pcb_alloc               0x00003785    0x5c  Code  Gb  pcb.o [1]
+pcb_claimed             0x10001b24    0x10  Data  Lc  pcb.o [1]
+pcb_init                0x00003769    0x1c  Code  Gb  pcb.o [1]
+printHexBytes           0x0000105d    0x22  Code  Gb  string_functions.o [1]
+print_meter_result      0x000001dd   0x23e  Code  Gb  app.o [1]
+printf                  0x000026d5    0x24  Code  Gb  printf.o [4]
+prvAllocateTCBAndStack  0x00004343    0x40  Code  Lc  tasks.o [1]
+prvCheckTasksWaitingTermination
+                        0x00004341     0x2  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x00003b2b    0x2c  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x00003ab9    0x72  Code  Lc  queue.o [1]
+prvIdleTask             0x00004295    0x1a  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x000042bd    0x42  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x000042ff    0x3a  Code  Lc  tasks.o [1]
+prvIsQueueEmpty         0x00003bc1    0x1e  Code  Lc  queue.o [1]
+prvIsQueueFull          0x00003bdf    0x20  Code  Lc  queue.o [1]
+prvUnlockQueue          0x00003b57    0x6a  Code  Lc  queue.o [1]
+putchar                 0x00000ec5     0xe  Code  Gb  uart.o [1]
+pvPortMalloc            0x00004995    0xf0  Code  Gb  heap_2.o [1]
+pwrite_pos              0x10001b64     0x4  Data  Lc  nvmem.o [1]
+pxCurrentTCB            0x10001b68     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x10001b6c     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x10001b70     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x00003cc7    0x18  Code  Gb  port.o [1]
+pxReadyTasksLists       0x100018a4    0x64  Data  Lc  tasks.o [1]
+relay_state             0x10000014     0x1  Data  Lc  app.o [1]
+relay_switching_interval
+                        0x10000010     0x2  Data  Lc  app.o [1]
+rf_tx_calibration_msg   0x10001bbd     0x1  Data  Gb  rfhandler.o [1]
+rf_tx_config_msg        0x10001bbc     0x1  Data  Gb  rfhandler.o [1]
+rtk_int_disable         0x000026c5     0x8  Code  Gb  rtk_FreeRTOS.o [1]
+rtk_int_enable          0x000026cd     0x8  Code  Gb  rtk_FreeRTOS.o [1]
+rtk_sem_acquire         0x0000266b    0x14  Code  Gb  rtk_FreeRTOS.o [1]
+rtk_sem_create          0x00002645    0x26  Code  Gb  rtk_FreeRTOS.o [1]
+rtk_sem_release         0x0000267f    0x12  Code  Gb  rtk_FreeRTOS.o [1]
+rtk_sem_release_isr     0x00002691    0x22  Code  Gb  rtk_FreeRTOS.o [1]
+rtk_tsk_sleep           0x000026b3    0x12  Code  Gb  rtk_FreeRTOS.o [1]
+sendMessage             0x000036fd    0x48  Code  Gb  znp_interface_spi.o [1]
+sendSreq                0x00003671    0x72  Code  Gb  znp_interface_spi.o [1]
+setCallbacks            0x00002a85    0x46  Code  Gb  znp_interface.o [1]
+setChannel              0x00002979    0x36  Code  Gb  znp_interface.o [1]
+setChannelMask          0x000029c5    0x62  Code  Gb  znp_interface.o [1]
+setStartupOptions       0x00002a39    0x40  Code  Gb  znp_interface.o [1]
+setZigbeeDeviceType     0x00002909    0x40  Code  Gb  znp_interface.o [1]
+set_tx_interval         0x000014ef    0x16  Code  Gb  rfhandler.o [1]
+setting                 0x00004f64    0x24  Data  Lc  uart.o [1]
+setup_BOD               0x0000041b    0x1e  Code  Lc  app.o [1]
+spiPoll                 0x000036e3    0x1a  Code  Gb  znp_interface_spi.o [1]
+spiWrite                0x000045fb    0x3e  Code  Gb  znp_hal.o [1]
+sprintf                 0x00000b7d    0x38  Code  Gb  sprintf.o [4]
+ssp_empty_rxfifo        0x0000446d    0x18  Code  Lc  znp_hal.o [1]
+startZnp                0x00001a0d    0xee  Code  Gb  rfhandler.o [1]
+strlen                  0x0000358f    0x14  Code  Gb  strlen.o [6]
+strncpy                 0x00004c2d    0x26  Code  Gb  strncpy.o [6]
+sys_millisec_cnt        0x10001bac     0x2  Data  Lc  main.o [1]
+sys_seconds_cnt         0x10001b60     0x4  Data  Lc  main.o [1]
+totalinuse              0x10001b54     0x4  Data  Lc  heap_2.o [1]
+transactionSequenceNumber
+                        0x10001bba     0x1  Data  Gb  af_zdo.o [1]
+trigger_tx_calibration_msg
+                        0x000014c9    0x10  Code  Gb  rfhandler.o [1]
+trigger_tx_config_msg   0x000014d9    0x10  Code  Gb  rfhandler.o [1]
+tx_interval             0x10000012     0x2  Data  Gb  rfhandler.o [1]
+unique_id               0x10001b4c     0x4  Data  Gb  app.o [1]
+uxCriticalNesting       0x10000000     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x10001b74     0x4  Data  Lc  tasks.o [1]
+uxMissedTicks           0x10001b8c     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x10001b88     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x10001b98     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x10001b80     0x4  Data  Lc  tasks.o [1]
+uxTopUsedPriority       0x10001b7c     0x4  Data  Lc  tasks.o [1]
+vApplicationIdleHook    0x00002ea5     0xa  Code  Gb  main.o [1]
+vApplicationStackOverflowHook
+                        0x00002eaf     0x4  Code  Gb  main.o [1]
+vApplicationTickHook    0x00002e5b    0x4a  Code  Gb  main.o [1]
+vListInitialise         0x00004ae1    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x00004aff     0x6  Code  Gb  list.o [1]
+vListInsert             0x00004b23    0x3c  Code  Gb  list.o [1]
+vListInsertEnd          0x00004b05    0x1e  Code  Gb  list.o [1]
+vListRemove             0x00004b5f    0x28  Code  Gb  list.o [1]
+vPortEnterCritical      0x00003d0f    0x12  Code  Gb  port.o [1]
+vPortExitCritical       0x00003d21    0x1c  Code  Gb  port.o [1]
+vPortFree               0x00004a85    0x44  Code  Gb  heap_2.o [1]
+vPortSVCHandler         0x00004bd1          Code  Gb  portasm.o [1]
+vPortStartFirstTask     0x00004bf7          Code  Gb  portasm.o [1]
+vPortYieldFromISR       0x00003d05     0xa  Code  Gb  port.o [1]
+vTaskDelay              0x00003e65    0x5c  Code  Gb  tasks.o [1]
+vTaskIncrementTick      0x00003fe9    0xb2  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x0000427d     0x8  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x00004145    0x52  Code  Gb  tasks.o [1]
+vTaskPriorityDisinherit
+                        0x000043fd    0x4a  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x00004391    0x6c  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x00004217     0xe  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x00003ec1    0x34  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x00003ef5     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x000040a1    0x9a  Code  Gb  tasks.o [1]
+waitForDeviceState      0x0000199d    0x70  Code  Lc  rfhandler.o [1]
+waitForMessage          0x00002bd7    0x7a  Code  Gb  znp_interface.o [1]
+xDelayedTaskList1       0x10001ae8    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x10001afc    0x14  Data  Lc  tasks.o [1]
+xEnd                    0x10001b3c     0x8  Data  Lc  heap_2.o [1]
+xHeap                   0x10000018  0x1800  Data  Lc  heap_2.o [1]
+xMissedYield            0x10001b90     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x10001b94     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x10001b10    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x00004b89          Code  Gb  portasm.o [1]
+xPortStartScheduler     0x00003cdf    0x26  Code  Gb  port.o [1]
+xPortSysTickHandler     0x00003d3d    0x20  Code  Gb  port.o [1]
+xQueueCreate            0x000037ed    0x76  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x0000399b   0x11e  Code  Gb  queue.o [1]
+xQueueGenericSend       0x00003863    0xd6  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x00003939    0x62  Code  Gb  queue.o [1]
+xSchedulerRunning       0x10001b84     0x4  Data  Lc  tasks.o [1]
+xStart                  0x10001b34     0x8  Data  Lc  heap_2.o [1]
+xTaskCheckForTimeOut    0x00004225    0x58  Code  Gb  tasks.o [1]
+xTaskCreate             0x00003d81    0xe4  Code  Gb  tasks.o [1]
+xTaskGetCurrentTaskHandle
+                        0x00004383     0x6  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x000041a5    0x72  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x00003f11    0xc4  Code  Gb  tasks.o [1]
+xTickCount              0x10001b78     0x4  Data  Lc  tasks.o [1]
+zdoStartApplication     0x00002f35    0x24  Code  Gb  af_zdo.o [1]
+znpBuf                  0x1000196c    0x64  Data  Gb  znp_interface_spi.o [1]
+znpInit                 0x000026f9     0xc  Code  Gb  znp_interface.o [1]
+znpReset                0x00002705    0x2c  Code  Gb  znp_interface.o [1]
+znpResult               0x10001ba8     0x4  Data  Gb  znp_interface.o [1]
+znp_hal_init            0x00004539    0x82  Code  Gb  znp_hal.o [1]
+
+
+[1] = E:\Embedded Projects\Smart_Plug\APP\Smart_Plug\Router\Obj
+[2] = command line
+[3] = dbg_metrology.a
+[4] = dl6M_tln.a
+[5] = m6M_tl.a
+[6] = rt6M_tl.a
+
+  19 728 bytes of readonly  code memory
+   1 664 bytes of readonly  data memory
+   7 487 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,48 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_CDS_FSP_UID!FUNC_NO_SWAP_PIN!FUNC_HARD_LOCATION!FUNC_NO_SWAP_GATE_EXT!FUNC_CDS_FSP_MAPPED_CELL!FUNC_CDS_FSP_FPGA_SYMBOL!FUNC_CDS_FSP_TERM_TYPE!FUNC_CDS_FSP_TERM_NAME!FUNC_ROOM!FUNC_GROUP!FUNC_CDS_FSP_TERM_INDEX!FUNC_NO_SWAP_GATE!
+J!E:/Applications & Projects/CC2531UD/pcb/cc2531ud.brd!Thu Oct 25 19:07:24 2012!-3102.68!-4282.68!11897.32!5717.32!0.01!mils!CC2531UD!10.400000 mil!2!UP TO DATE!
+S!@cc2531ud.cc2531ud(sch_1):ins5079@cc2531ud.\usb_a_1.normal\(chips)!USB_A_1_USBA_USB_A!P1!.\pstchip.dat!!!!!!F19!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins2708@\library\.\antenna.normal\(chips)!ANTENNA_ANTENNA_IIFA_1_LEFT_ANT!A1!.\pstchip.dat!!!!!!F45!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins103@\library\.\cap np.normal\(chips)!CAP NP_C_0603_C_1U_0603_X5R_L_6!C17!.\pstchip.dat!!!!!!F44!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins921@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_100N_0402_X5R_K!C6!.\pstchip.dat!!!!!!F43!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins953@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_100N_0402_X5R_K!C8!.\pstchip.dat!!!!!!F42!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins864@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_100N_0402_X5R_K!C12!.\pstchip.dat!!!!!!F41!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins880@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_100N_0402_X5R_K!C9!.\pstchip.dat!!!!!!F40!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins905@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_100N_0402_X5R_K!C2!.\pstchip.dat!!!!!!F39!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins937@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_220P_0402_NP0_J!C5!.\pstchip.dat!!!!!!F38!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins2580@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_0P5_0402_NP0_B_!C1!.\pstchip.dat!!!!!!F37!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3637@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_1N_0402_NP0_J_5!C3!.\pstchip.dat!!!!!!F36!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3293@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_1U_0402_X5R_K_6!C11!.\pstchip.dat!!!!!!F35!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins848@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_1U_0402_X5R_K_6!C10!.\pstchip.dat!!!!!!F34!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3424@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_27P_0402_NP0_J_!C4!.\pstchip.dat!!!!!!F33!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3442@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_27P_0402_NP0_J_!C7!.\pstchip.dat!!!!!!F32!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5270@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_47P_0402_NP0_J_!C18!.\pstchip.dat!!!!!!F31!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5286@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_47P_0402_NP0_J_!C19!.\pstchip.dat!!!!!!F30!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins119@\library\.\cap np.normal\(chips)!CAP NP_C_0603_C_4U7_0603_X5R_K_!C15!.\pstchip.dat!!!!!!F29!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins135@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_0402!C16!.\pstchip.dat!!!!!!F28!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins969@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_2U2_0402_X5R_M_!C14!.\pstchip.dat!!!!!!F27!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins832@\library\.\cap np.normal\(chips)!CAP NP_C_0402_C_10P_0402_NP0_J_!C13!.\pstchip.dat!!!!!!F26!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6301@\library\.\led.normal\(chips)!LED_LEDC_0805_LED_RED!D2!.\pstchip.dat!!!!!!F25!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6317@\library\.\led.normal\(chips)!LED_LEDC_0805_LED_GREEN!D1!.\pstchip.dat!!!!!!F24!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins7624@connector.\header 8.normal\(chips)!HEADER 8_SHDRV8W50P0_125_DEBUG!J1!.\pstchip.dat!!!!!!F23!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6146@connector.\header 8.normal\(chips)!HEADER 8_SHDRV8W50P0_125_IO!J2!.\pstchip.dat!!!!!!F22!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins2144@\library\.\inductor.normal\(chips)!INDUCTOR_R_0402_L_BEAD_102_0402!L2!.\pstchip.dat!!!!!!F21!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3149@\library\.\inductor.normal\(chips)!INDUCTOR_R_0402_L_6N8_0402_J!L1!.\pstchip.dat!!!!!!F20!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins430@\library\.\r2.normal\(chips)!R2_R_0402_R_0402!R5!.\pstchip.dat!!!!!!F18!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5526@\library\.\r2.normal\(chips)!R2_R_0402_R_0402!R10!.\pstchip.dat!!!!!!F17!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5495@\library\.\r2.normal\(chips)!R2_R_0402_R_1K5_0402_G!R11!.\pstchip.dat!!!!!!F16!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6358@\library\.\r2.normal\(chips)!R2_R_0402_R_270_0402_F!R6!.\pstchip.dat!!!!!!F15!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6342@\library\.\r2.normal\(chips)!R2_R_0402_R_270_0402_F!R7!.\pstchip.dat!!!!!!F14!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5198@\library\.\r2.normal\(chips)!R2_R_0402_R_33_0402_G!R12!.\pstchip.dat!!!!!!F13!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5182@\library\.\r2.normal\(chips)!R2_R_0402_R_33_0402_G!R13!.\pstchip.dat!!!!!!F12!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins446@\library\.\r2.normal\(chips)!R2_R_0402_R_0_0402!R8!.\pstchip.dat!!!!!!F11!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins2605@\library\.\r2.normal\(chips)!R2_R_0402_R_0_0402!R1!.\pstchip.dat!!!!!!F10!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins5585@\library\.\r2.normal\(chips)!R2_R_0402_R_0_0402!R4!.\pstchip.dat!!!!!!F9!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins302@\library\.\r2.normal\(chips)!R2_R_0402_R_2_0402_F!R9!.\pstchip.dat!!!!!!F8!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3664@\library\.\r2.normal\(chips)!R2_R_0402_R_2K2_0402_G!R3!.\pstchip.dat!!!!!!F7!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3203@\library\.\r2.normal\(chips)!R2_R_0402_R_56K_0402_F!R2!.\pstchip.dat!!!!!!F6!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6523@discrete.\sw pushbutton-spst.normal\(chips)!SW PUSHBUTTON-SPST_SW7939X216N_!SW1!.\pstchip.dat!!!!!!F5!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins6539@discrete.\sw pushbutton-spst.normal\(chips)!SW PUSHBUTTON-SPST_SW7939X216N_!SW2!.\pstchip.dat!!!!!!F4!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins36@\library\.\tps76933.normal\(chips)!TPS76933_SOT95P280X145-5N_TPS76!U3!.\pstchip.dat!!!!!!F3!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins619@\library\.\cc2530.normal\(chips)!CC2530_S-PVQFN-M40_CC2531!U2!.\pstchip.dat!!!!!!F2!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins2414@\library\.\2450bm15a0002.normal\(chips)!2450BM15A0002_2450BM15A0002_245!U1!.\pstchip.dat!!!!!!F1!!!!!!!!!!!!!!!
+S!@cc2531ud.cc2531ud(sch_1):ins3042@\library\.\osc_32m.normal\(chips)!OSC_32M_XTAL_SMD_3_2X2_5_OSC_32!X1!.\pstchip.dat!!!!!!F0!!!!!!!!!!!!!!!

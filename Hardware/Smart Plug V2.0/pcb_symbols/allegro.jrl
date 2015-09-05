@@ -1,0 +1,66 @@
+\t (00:44:34) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:44:34)     Journal start - Fri Apr 27 10:30:59 2012
+\t (00:44:34)         Host=XIAOCAI-PC User=xiaocai Pid=1868 CPUs=4
+\t (00:44:34) 
+\d (00:44:34) Database opened: E:/Embedded Projects/PlugMeter_Zigbee/pcb_symbols/hfe20-3.dra
+\i (00:44:34) generaledit 
+\i (00:44:35) zoom in 1 
+\i (00:44:35) setwindow pcb
+\i (00:44:35) zoom in -5.921 22.792
+\i (00:44:35) trapsize 235
+\i (00:44:36) zoom in 1 
+\i (00:44:36) setwindow pcb
+\i (00:44:36) zoom in -5.404 23.497
+\i (00:44:36) trapsize 117
+\i (00:44:36) zoom out 1 
+\i (00:44:36) setwindow pcb
+\i (00:44:36) zoom out -4.300 23.192
+\i (00:44:36) trapsize 235
+\i (00:44:36) zoom out 1 
+\i (00:44:36) setwindow pcb
+\i (00:44:36) zoom out -3.923 22.816
+\i (00:44:36) trapsize 470
+\i (00:44:36) zoom in 1 
+\i (00:44:36) setwindow pcb
+\i (00:44:36) zoom in -2.725 26.388
+\i (00:44:36) trapsize 235
+\i (00:44:37) zoom in 1 
+\i (00:44:37) setwindow pcb
+\i (00:44:37) zoom in -3.007 26.576
+\i (00:44:37) trapsize 117
+\i (00:44:37) zoom in 1 
+\i (00:44:37) setwindow pcb
+\i (00:44:37) zoom in -3.006 26.576
+\i (00:44:37) trapsize 59
+\i (00:44:38) zoom out 1 
+\i (00:44:38) setwindow pcb
+\i (00:44:38) zoom out -0.938 26.047
+\i (00:44:38) trapsize 117
+\i (00:44:39) zoom in 1 
+\i (00:44:39) setwindow pcb
+\i (00:44:39) zoom in -1.315 27.904
+\i (00:44:39) trapsize 59
+\i (00:44:48) package_height 
+\i (00:44:54) pick grid 2.422 26.506
+\t (00:44:54) last pick:  2.540  26.416
+\i (00:45:06) setwindow form.mini
+\i (00:45:06) FORM mini height_min  
+\i (00:45:29) setwindow pcb
+\i (00:45:29) prepopup -0.703 28.057
+\i (00:45:30) done 
+\i (00:45:30) generaledit 
+\i (00:45:31) save 
+\i (00:45:33) fillin yes 
+\t (00:45:38) Symbol 'hfe20-3.psm' created.
+\i (00:45:38) generaledit 
+\i (00:45:40) open 
+\i (00:45:47) fillin "E:\Embedded Projects\PlugMeter_Zigbee\pcb\wireless_plugmeter_v2_0.brd"
+\i (00:45:47) cd "E:\Embedded Projects\PlugMeter_Zigbee\pcb"
+\t (00:45:48) Opening existing design...
+\t (00:45:48) Grids are drawn 25.6, 25.6 apart for enhanced viewability.
+\i (00:45:48) trapsize 103
+\i (00:45:48) trapsize 101
+\i (00:45:48) trapsize 103
+\i (00:45:48) trapsize 104
+\i (00:45:48) trapsize 104
+\t (00:45:49)     Journal end - Fri Apr 27 10:32:13 2012
