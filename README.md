@@ -7,6 +7,6 @@ Here is the hardware:
 
 Here is the PC software using C#:
 
-![PC software screenshot](/smartplug_screenshot.png)
-![PC software screenshot](/smartplug_screenshot1.png)
-![PC software screenshot](/smartplug_screenshot2.png)
+![PC software screenshot](/smartplug_screenshot.PNG)
+![PC software screenshot](/smartplug_screenshot1.PNG)
+![PC software screenshot](/smartplug_screenshot2.PNG)
